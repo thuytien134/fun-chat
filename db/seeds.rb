@@ -5,3 +5,5 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+Chat.create!(participant: "Thuy")
+Message.create!(sender: "Thuy", text: "hello")
